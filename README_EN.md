@@ -2,20 +2,20 @@
 
 <div align="center">
 
-# Openclaw-Usecases-CN
+# awesome-openclaw-Usecases-CN
 
 **Turn upstream OpenClaw use cases into filterable, trackable, and execution-ready data assets.**
 
-[![CI](https://github.com/AIPMAndy/Openclaw-Usecases-CN/actions/workflows/ci.yml/badge.svg)](https://github.com/AIPMAndy/Openclaw-Usecases-CN/actions/workflows/ci.yml)
+[![CI](https://github.com/AIPMAndy/awesome-openclaw-Usecases-CN/actions/workflows/ci.yml/badge.svg)](https://github.com/AIPMAndy/awesome-openclaw-Usecases-CN/actions/workflows/ci.yml)
 [![Data](https://img.shields.io/badge/data-markdown%20%2B%20json-brightgreen)](docs/USECASES.json)
 [![Sync](https://img.shields.io/badge/sync-daily-blue)](.github/workflows/sync-upstream.yml)
-[![Stars](https://img.shields.io/github/stars/AIPMAndy/Openclaw-Usecases-CN?style=social)](https://github.com/AIPMAndy/Openclaw-Usecases-CN/stargazers)
+[![Stars](https://img.shields.io/github/stars/AIPMAndy/awesome-openclaw-Usecases-CN?style=social)](https://github.com/AIPMAndy/awesome-openclaw-Usecases-CN/stargazers)
 
 </div>
 
 ## 🆚 Why Choose This Repo?
 
-| Dimension | Typical Use Case Lists | Openclaw-Usecases-CN |
+| Dimension | Typical Use Case Lists | awesome-openclaw-Usecases-CN |
 |---|---|---|
 | Data format | Markdown only | Dual format: `Markdown + JSON` |
 | Change tracking | Manual comparison | Automatic `NEW/UPDATED/REMOVED` outputs |

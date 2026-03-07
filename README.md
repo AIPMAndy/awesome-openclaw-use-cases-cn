@@ -2,20 +2,20 @@
 
 <div align="center">
 
-# Openclaw-Usecases-CN
+# awesome-openclaw-Usecases-CN
 
 **把 OpenClaw 上游案例转成可筛选、可追踪、可直接执行的中文数据资产。**
 
-[![CI](https://github.com/AIPMAndy/Openclaw-Usecases-CN/actions/workflows/ci.yml/badge.svg)](https://github.com/AIPMAndy/Openclaw-Usecases-CN/actions/workflows/ci.yml)
+[![CI](https://github.com/AIPMAndy/awesome-openclaw-Usecases-CN/actions/workflows/ci.yml/badge.svg)](https://github.com/AIPMAndy/awesome-openclaw-Usecases-CN/actions/workflows/ci.yml)
 [![Data](https://img.shields.io/badge/data-markdown%20%2B%20json-brightgreen)](docs/USECASES.json)
 [![Sync](https://img.shields.io/badge/sync-daily-blue)](.github/workflows/sync-upstream.yml)
-[![Stars](https://img.shields.io/github/stars/AIPMAndy/Openclaw-Usecases-CN?style=social)](https://github.com/AIPMAndy/Openclaw-Usecases-CN/stargazers)
+[![Stars](https://img.shields.io/github/stars/AIPMAndy/awesome-openclaw-Usecases-CN?style=social)](https://github.com/AIPMAndy/awesome-openclaw-Usecases-CN/stargazers)
 
 </div>
 
 ## 🆚 为什么选这个？
 
-| 维度 | 常见用例列表 | Openclaw-Usecases-CN |
+| 维度 | 常见用例列表 | awesome-openclaw-Usecases-CN |
 |---|---|---|
 | 数据形态 | 纯 Markdown | `Markdown + JSON` 双格式 |
 | 增量追踪 | 手工比对 | 自动产出 `NEW/UPDATED/REMOVED` |
