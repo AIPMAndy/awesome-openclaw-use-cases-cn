@@ -47,6 +47,7 @@
 
 | 案例 | 一句话说明 | 渠道 |
 |------|-----------|------|
+| [自主运营网站 Agent](usecases/ai-website-operator.md) | OpenClaw Agent 独立运营网站 32 天，日记/SEO/外链全自动，日 UV 5000+ | 全平台 |
 | [内容改写工作流](usecases/content-repurpose.md) | 一篇长文 → 多平台内容（小红书/Twitter/公众号） | CLI / Chat |
 | [AI 研究日报](usecases/ai-research-digest.md) | 自动抓取 + 摘要 + 推送，每天 5 分钟看完行业动态 | 多渠道 |
 
