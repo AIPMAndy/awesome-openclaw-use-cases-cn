@@ -1,15 +1,60 @@
 {
-  "generated_at": "2026-03-14 04:11:53 UTC",
-  "compared_at": "2026-03-14 04:11:54 UTC",
-  "previous_generated_at": "2026-03-13 04:13:02 UTC",
+  "generated_at": "2026-03-15 04:33:13 UTC",
+  "compared_at": "2026-03-15 04:33:14 UTC",
+  "previous_generated_at": "2026-03-14 04:11:53 UTC",
   "totals": {
     "previous_overall": 106,
-    "current_overall": 106,
-    "new_count": 0,
+    "current_overall": 110,
+    "new_count": 4,
     "updated_count": 0,
     "removed_count": 0
   },
-  "new": [],
+  "new": [
+    {
+      "source": "A",
+      "path": "usecases/arxiv-paper-reader.md",
+      "title": "arXiv Paper Reader",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/arxiv-paper-reader.md",
+      "category": "通用",
+      "license_status": "explicit_license",
+      "source_confidence": 82,
+      "security_risk": "low",
+      "reproducibility_score": 72
+    },
+    {
+      "source": "A",
+      "path": "usecases/latex-paper-writing.md",
+      "title": "LaTeX Paper Writing",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/latex-paper-writing.md",
+      "category": "通用",
+      "license_status": "explicit_license",
+      "source_confidence": 82,
+      "security_risk": "low",
+      "reproducibility_score": 72
+    },
+    {
+      "source": "A",
+      "path": "usecases/local-crm-framework.md",
+      "title": "Local CRM Framework with DenchClaw",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/local-crm-framework.md",
+      "category": "效率自动化",
+      "license_status": "explicit_license",
+      "source_confidence": 82,
+      "security_risk": "low",
+      "reproducibility_score": 78
+    },
+    {
+      "source": "A",
+      "path": "usecases/x-twitter-automation.md",
+      "title": "X/Twitter Automation from Chat",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/x-twitter-automation.md",
+      "category": "通用",
+      "license_status": "explicit_license",
+      "source_confidence": 82,
+      "security_risk": "low",
+      "reproducibility_score": 72
+    }
+  ],
   "updated": [],
   "removed": []
 }

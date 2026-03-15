@@ -2,10 +2,10 @@
 
 > 自动生成文件，请勿手工编辑。
 
-- 生成时间: 2026-03-14 04:11:53 UTC
-- 来源 A: `hesamsheikh/awesome-openclaw-usecases` (36)
+- 生成时间: 2026-03-15 04:33:13 UTC
+- 来源 A: `hesamsheikh/awesome-openclaw-usecases` (40)
 - 来源 B: `EvoLinkAI/awesome-openclaw-usecases-moltbook` (70)
-- 总计: 106
+- 总计: 110
 - 机器可读索引: `USECASES.json`
 
 ## 来源 A（社区合集）
@@ -13,41 +13,45 @@
 | # | 用例 | 上游链接 | 相对路径 | 分类 | 风险 | 可信度 | 可复现性 |
 |---|---|---|---|---|---|---:|---:|
 | 1 | OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/aionui-cowork-desktop.md) | `usecases/aionui-cowork-desktop.md` | `通用` | `low` | 82 | 72 |
-| 2 | Autonomous Educational Game Development Pipeline | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/autonomous-game-dev-pipeline.md) | `usecases/autonomous-game-dev-pipeline.md` | `通用` | `low` | 82 | 72 |
-| 3 | Autonomous Project Management with Subagents | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/autonomous-project-management.md) | `usecases/autonomous-project-management.md` | `通用` | `low` | 82 | 72 |
-| 4 | Multi-Agent Content Factory | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/content-factory.md) | `usecases/content-factory.md` | `内容增长` | `low` | 82 | 72 |
-| 5 | Custom Morning Brief | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/custom-morning-brief.md) | `usecases/custom-morning-brief.md` | `效率自动化` | `low` | 82 | 78 |
-| 6 | Daily Reddit Digest | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-reddit-digest.md) | `usecases/daily-reddit-digest.md` | `效率自动化` | `low` | 82 | 78 |
-| 7 | Daily YouTube Digest | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-youtube-digest.md) | `usecases/daily-youtube-digest.md` | `内容增长` | `low` | 82 | 72 |
-| 8 | Dynamic Dashboard with Sub-agent Spawning | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/dynamic-dashboard.md) | `usecases/dynamic-dashboard.md` | `开发运维` | `low` | 82 | 78 |
-| 9 | AI-Powered Earnings Tracker | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/earnings-tracker.md) | `usecases/earnings-tracker.md` | `投资交易` | `medium` | 76 | 62 |
-| 10 | Event Guest Confirmation | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/event-guest-confirmation.md) | `usecases/event-guest-confirmation.md` | `通用` | `low` | 82 | 72 |
-| 11 | Family Calendar Aggregation & Household Assistant | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/family-calendar-household-assistant.md) | `usecases/family-calendar-household-assistant.md` | `效率自动化` | `low` | 82 | 78 |
-| 12 | Habit Tracker & Accountability Coach | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/habit-tracker-accountability-coach.md) | `usecases/habit-tracker-accountability-coach.md` | `通用` | `low` | 82 | 72 |
-| 13 | Health & Symptom Tracker | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/health-symptom-tracker.md) | `usecases/health-symptom-tracker.md` | `开发运维` | `low` | 82 | 78 |
-| 14 | Inbox De-clutter | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/inbox-declutter.md) | `usecases/inbox-declutter.md` | `通用` | `low` | 82 | 72 |
-| 15 | Personal Knowledge Base (RAG) | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/knowledge-base-rag.md) | `usecases/knowledge-base-rag.md` | `学习知识` | `low` | 82 | 78 |
-| 16 | Market Research & Product Factory | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/market-research-product-factory.md) | `usecases/market-research-product-factory.md` | `投资交易` | `medium` | 76 | 62 |
-| 17 | Automated Meeting Notes & Action Items | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/meeting-notes-action-items.md) | `usecases/meeting-notes-action-items.md` | `通用` | `low` | 82 | 72 |
-| 18 | Multi-Agent Specialized Team (Solo Founder Setup) | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-agent-team.md) | `usecases/multi-agent-team.md` | `通用` | `low` | 82 | 72 |
-| 19 | Multi-Channel Personal Assistant | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-channel-assistant.md) | `usecases/multi-channel-assistant.md` | `效率自动化` | `low` | 82 | 78 |
-| 20 | Multi-Channel AI Customer Service Platform | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-channel-customer-service.md) | `usecases/multi-channel-customer-service.md` | `通用` | `low` | 82 | 72 |
-| 21 | Multi-Source Tech News Digest | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-source-tech-news-digest.md) | `usecases/multi-source-tech-news-digest.md` | `效率自动化` | `low` | 82 | 78 |
-| 22 | OpenClaw + n8n Workflow Orchestration | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/n8n-workflow-orchestration.md) | `usecases/n8n-workflow-orchestration.md` | `开发运维` | `low` | 82 | 78 |
-| 23 | Goal-Driven Autonomous Tasks | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/overnight-mini-app-builder.md) | `usecases/overnight-mini-app-builder.md` | `效率自动化` | `low` | 82 | 78 |
-| 24 | Personal CRM with Automatic Contact Discovery | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/personal-crm.md) | `usecases/personal-crm.md` | `效率自动化` | `low` | 82 | 78 |
-| 25 | Phone-Based Personal Assistant | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/phone-based-personal-assistant.md) | `usecases/phone-based-personal-assistant.md` | `效率自动化` | `low` | 82 | 78 |
-| 26 | Phone Call Notifications | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/phone-call-notifications.md) | `usecases/phone-call-notifications.md` | `通用` | `low` | 82 | 72 |
-| 27 | Podcast Production Pipeline | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/podcast-production-pipeline.md) | `usecases/podcast-production-pipeline.md` | `内容增长` | `low` | 82 | 72 |
-| 28 | Polymarket Autopilot: Automated Paper Trading | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/polymarket-autopilot.md) | `usecases/polymarket-autopilot.md` | `投资交易` | `medium` | 76 | 62 |
-| 29 | Pre-Build Idea Validator | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/pre-build-idea-validator.md) | `usecases/pre-build-idea-validator.md` | `通用` | `low` | 82 | 72 |
-| 30 | Project State Management System: Event-Driven Alternative to Kanban | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/project-state-management.md) | `usecases/project-state-management.md` | `通用` | `low` | 82 | 72 |
-| 31 | Second Brain | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/second-brain.md) | `usecases/second-brain.md` | `通用` | `low` | 82 | 72 |
-| 32 | Self-Healing Home Server & Infrastructure Management | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/self-healing-home-server.md) | `usecases/self-healing-home-server.md` | `开发运维` | `low` | 82 | 78 |
-| 33 | Semantic Memory Search | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/semantic-memory-search.md) | `usecases/semantic-memory-search.md` | `学习知识` | `low` | 82 | 78 |
-| 34 | Todoist Task Manager: Agent Task Visibility | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/todoist-task-manager.md) | `usecases/todoist-task-manager.md` | `效率自动化` | `low` | 82 | 78 |
-| 35 | X Account Analysis | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/x-account-analysis.md) | `usecases/x-account-analysis.md` | `通用` | `low` | 82 | 72 |
-| 36 | YouTube Content Pipeline | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/youtube-content-pipeline.md) | `usecases/youtube-content-pipeline.md` | `内容增长` | `low` | 82 | 72 |
+| 2 | arXiv Paper Reader | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/arxiv-paper-reader.md) | `usecases/arxiv-paper-reader.md` | `通用` | `low` | 82 | 72 |
+| 3 | Autonomous Educational Game Development Pipeline | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/autonomous-game-dev-pipeline.md) | `usecases/autonomous-game-dev-pipeline.md` | `通用` | `low` | 82 | 72 |
+| 4 | Autonomous Project Management with Subagents | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/autonomous-project-management.md) | `usecases/autonomous-project-management.md` | `通用` | `low` | 82 | 72 |
+| 5 | Multi-Agent Content Factory | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/content-factory.md) | `usecases/content-factory.md` | `内容增长` | `low` | 82 | 72 |
+| 6 | Custom Morning Brief | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/custom-morning-brief.md) | `usecases/custom-morning-brief.md` | `效率自动化` | `low` | 82 | 78 |
+| 7 | Daily Reddit Digest | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-reddit-digest.md) | `usecases/daily-reddit-digest.md` | `效率自动化` | `low` | 82 | 78 |
+| 8 | Daily YouTube Digest | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-youtube-digest.md) | `usecases/daily-youtube-digest.md` | `内容增长` | `low` | 82 | 72 |
+| 9 | Dynamic Dashboard with Sub-agent Spawning | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/dynamic-dashboard.md) | `usecases/dynamic-dashboard.md` | `开发运维` | `low` | 82 | 78 |
+| 10 | AI-Powered Earnings Tracker | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/earnings-tracker.md) | `usecases/earnings-tracker.md` | `投资交易` | `medium` | 76 | 62 |
+| 11 | Event Guest Confirmation | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/event-guest-confirmation.md) | `usecases/event-guest-confirmation.md` | `通用` | `low` | 82 | 72 |
+| 12 | Family Calendar Aggregation & Household Assistant | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/family-calendar-household-assistant.md) | `usecases/family-calendar-household-assistant.md` | `效率自动化` | `low` | 82 | 78 |
+| 13 | Habit Tracker & Accountability Coach | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/habit-tracker-accountability-coach.md) | `usecases/habit-tracker-accountability-coach.md` | `通用` | `low` | 82 | 72 |
+| 14 | Health & Symptom Tracker | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/health-symptom-tracker.md) | `usecases/health-symptom-tracker.md` | `开发运维` | `low` | 82 | 78 |
+| 15 | Inbox De-clutter | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/inbox-declutter.md) | `usecases/inbox-declutter.md` | `通用` | `low` | 82 | 72 |
+| 16 | Personal Knowledge Base (RAG) | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/knowledge-base-rag.md) | `usecases/knowledge-base-rag.md` | `学习知识` | `low` | 82 | 78 |
+| 17 | LaTeX Paper Writing | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/latex-paper-writing.md) | `usecases/latex-paper-writing.md` | `通用` | `low` | 82 | 72 |
+| 18 | Local CRM Framework with DenchClaw | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/local-crm-framework.md) | `usecases/local-crm-framework.md` | `效率自动化` | `low` | 82 | 78 |
+| 19 | Market Research & Product Factory | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/market-research-product-factory.md) | `usecases/market-research-product-factory.md` | `投资交易` | `medium` | 76 | 62 |
+| 20 | Automated Meeting Notes & Action Items | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/meeting-notes-action-items.md) | `usecases/meeting-notes-action-items.md` | `通用` | `low` | 82 | 72 |
+| 21 | Multi-Agent Specialized Team (Solo Founder Setup) | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-agent-team.md) | `usecases/multi-agent-team.md` | `通用` | `low` | 82 | 72 |
+| 22 | Multi-Channel Personal Assistant | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-channel-assistant.md) | `usecases/multi-channel-assistant.md` | `效率自动化` | `low` | 82 | 78 |
+| 23 | Multi-Channel AI Customer Service Platform | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-channel-customer-service.md) | `usecases/multi-channel-customer-service.md` | `通用` | `low` | 82 | 72 |
+| 24 | Multi-Source Tech News Digest | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-source-tech-news-digest.md) | `usecases/multi-source-tech-news-digest.md` | `效率自动化` | `low` | 82 | 78 |
+| 25 | OpenClaw + n8n Workflow Orchestration | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/n8n-workflow-orchestration.md) | `usecases/n8n-workflow-orchestration.md` | `开发运维` | `low` | 82 | 78 |
+| 26 | Goal-Driven Autonomous Tasks | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/overnight-mini-app-builder.md) | `usecases/overnight-mini-app-builder.md` | `效率自动化` | `low` | 82 | 78 |
+| 27 | Personal CRM with Automatic Contact Discovery | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/personal-crm.md) | `usecases/personal-crm.md` | `效率自动化` | `low` | 82 | 78 |
+| 28 | Phone-Based Personal Assistant | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/phone-based-personal-assistant.md) | `usecases/phone-based-personal-assistant.md` | `效率自动化` | `low` | 82 | 78 |
+| 29 | Phone Call Notifications | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/phone-call-notifications.md) | `usecases/phone-call-notifications.md` | `通用` | `low` | 82 | 72 |
+| 30 | Podcast Production Pipeline | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/podcast-production-pipeline.md) | `usecases/podcast-production-pipeline.md` | `内容增长` | `low` | 82 | 72 |
+| 31 | Polymarket Autopilot: Automated Paper Trading | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/polymarket-autopilot.md) | `usecases/polymarket-autopilot.md` | `投资交易` | `medium` | 76 | 62 |
+| 32 | Pre-Build Idea Validator | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/pre-build-idea-validator.md) | `usecases/pre-build-idea-validator.md` | `通用` | `low` | 82 | 72 |
+| 33 | Project State Management System: Event-Driven Alternative to Kanban | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/project-state-management.md) | `usecases/project-state-management.md` | `通用` | `low` | 82 | 72 |
+| 34 | Second Brain | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/second-brain.md) | `usecases/second-brain.md` | `通用` | `low` | 82 | 72 |
+| 35 | Self-Healing Home Server & Infrastructure Management | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/self-healing-home-server.md) | `usecases/self-healing-home-server.md` | `开发运维` | `low` | 82 | 78 |
+| 36 | Semantic Memory Search | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/semantic-memory-search.md) | `usecases/semantic-memory-search.md` | `学习知识` | `low` | 82 | 78 |
+| 37 | Todoist Task Manager: Agent Task Visibility | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/todoist-task-manager.md) | `usecases/todoist-task-manager.md` | `效率自动化` | `low` | 82 | 78 |
+| 38 | X Account Analysis | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/x-account-analysis.md) | `usecases/x-account-analysis.md` | `通用` | `low` | 82 | 72 |
+| 39 | X/Twitter Automation from Chat | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/x-twitter-automation.md) | `usecases/x-twitter-automation.md` | `通用` | `low` | 82 | 72 |
+| 40 | YouTube Content Pipeline | [查看](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/youtube-content-pipeline.md) | `usecases/youtube-content-pipeline.md` | `内容增长` | `low` | 82 | 72 |
 
 ## 来源 B（Moltbook）
 

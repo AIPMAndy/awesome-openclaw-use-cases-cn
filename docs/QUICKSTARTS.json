@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-14 04:11:54 UTC",
-  "source_generated_at": "2026-03-14 04:11:53 UTC",
+  "generated_at": "2026-03-15 04:33:14 UTC",
+  "source_generated_at": "2026-03-15 04:33:13 UTC",
   "top_n": 20,
   "selected_count": 20,
   "ranking_formula": "score=0.55*source_confidence+0.45*reproducibility_score-risk_penalty(low=0,medium=8,high=16)",
@@ -266,6 +266,49 @@
     {
       "rank": 7,
       "source": "A",
+      "path": "usecases/local-crm-framework.md",
+      "title": "Local CRM Framework with DenchClaw",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/local-crm-framework.md",
+      "category": "效率自动化",
+      "security_risk": "low",
+      "source_confidence": 82,
+      "reproducibility_score": 78,
+      "ranking_score": 80.2,
+      "quickstart": {
+        "difficulty": "easy",
+        "estimated_minutes": 25,
+        "recommended_stack": [
+          "Python",
+          "Webhook",
+          "任务调度",
+          "通知渠道"
+        ],
+        "preflight": [
+          "阅读并确认上游用例范围与授权要求",
+          "在隔离目录创建实验分支或临时项目",
+          "记录目标产出与成功判定标准"
+        ],
+        "steps": [
+          "打开上游链接，提取输入、输出和触发条件",
+          "按分类 效率自动化 搭建最小可运行版本",
+          "先打通单次执行，再补调度、通知或集成接口",
+          "将参数与密钥改为环境变量，并增加失败重试与错误日志"
+        ],
+        "verification": [
+          "至少跑通 1 次端到端流程并保存输出样例",
+          "验证异常路径：缺参数、超时、上游失败",
+          "确认输出与目标一致，并记录可复现命令"
+        ],
+        "rollback": [
+          "暂停该自动化任务的定时触发",
+          "停用临时密钥并清理缓存数据",
+          "回退到手工流程并保留排障日志"
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "source": "A",
       "path": "usecases/multi-channel-assistant.md",
       "title": "Multi-Channel Personal Assistant",
       "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-channel-assistant.md",
@@ -307,7 +350,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 9,
       "source": "A",
       "path": "usecases/multi-source-tech-news-digest.md",
       "title": "Multi-Source Tech News Digest",
@@ -350,7 +393,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 10,
       "source": "A",
       "path": "usecases/n8n-workflow-orchestration.md",
       "title": "OpenClaw + n8n Workflow Orchestration",
@@ -393,7 +436,7 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 11,
       "source": "A",
       "path": "usecases/overnight-mini-app-builder.md",
       "title": "Goal-Driven Autonomous Tasks",
@@ -436,7 +479,7 @@
       }
     },
     {
-      "rank": 11,
+      "rank": 12,
       "source": "A",
       "path": "usecases/personal-crm.md",
       "title": "Personal CRM with Automatic Contact Discovery",
@@ -479,7 +522,7 @@
       }
     },
     {
-      "rank": 12,
+      "rank": 13,
       "source": "A",
       "path": "usecases/phone-based-personal-assistant.md",
       "title": "Phone-Based Personal Assistant",
@@ -522,7 +565,7 @@
       }
     },
     {
-      "rank": 13,
+      "rank": 14,
       "source": "A",
       "path": "usecases/self-healing-home-server.md",
       "title": "Self-Healing Home Server & Infrastructure Management",
@@ -565,7 +608,7 @@
       }
     },
     {
-      "rank": 14,
+      "rank": 15,
       "source": "A",
       "path": "usecases/semantic-memory-search.md",
       "title": "Semantic Memory Search",
@@ -608,7 +651,7 @@
       }
     },
     {
-      "rank": 15,
+      "rank": 16,
       "source": "A",
       "path": "usecases/todoist-task-manager.md",
       "title": "Todoist Task Manager: Agent Task Visibility",
@@ -651,7 +694,7 @@
       }
     },
     {
-      "rank": 16,
+      "rank": 17,
       "source": "A",
       "path": "usecases/aionui-cowork-desktop.md",
       "title": "OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub",
@@ -694,7 +737,50 @@
       }
     },
     {
-      "rank": 17,
+      "rank": 18,
+      "source": "A",
+      "path": "usecases/arxiv-paper-reader.md",
+      "title": "arXiv Paper Reader",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/arxiv-paper-reader.md",
+      "category": "通用",
+      "security_risk": "low",
+      "source_confidence": 82,
+      "reproducibility_score": 72,
+      "ranking_score": 77.5,
+      "quickstart": {
+        "difficulty": "medium",
+        "estimated_minutes": 40,
+        "recommended_stack": [
+          "Python",
+          "Bash",
+          "Webhook",
+          "日志"
+        ],
+        "preflight": [
+          "阅读并确认上游用例范围与授权要求",
+          "在隔离目录创建实验分支或临时项目",
+          "记录目标产出与成功判定标准"
+        ],
+        "steps": [
+          "打开上游链接，提取输入、输出和触发条件",
+          "按分类 通用 搭建最小可运行版本",
+          "先打通单次执行，再补调度、通知或集成接口",
+          "将参数与密钥改为环境变量，并增加失败重试与错误日志"
+        ],
+        "verification": [
+          "至少跑通 1 次端到端流程并保存输出样例",
+          "验证异常路径：缺参数、超时、上游失败",
+          "确认输出与目标一致，并记录可复现命令"
+        ],
+        "rollback": [
+          "暂停该自动化任务的定时触发",
+          "停用临时密钥并清理缓存数据",
+          "回退到手工流程并保留排障日志"
+        ]
+      }
+    },
+    {
+      "rank": 19,
       "source": "A",
       "path": "usecases/autonomous-game-dev-pipeline.md",
       "title": "Autonomous Educational Game Development Pipeline",
@@ -737,7 +823,7 @@
       }
     },
     {
-      "rank": 18,
+      "rank": 20,
       "source": "A",
       "path": "usecases/autonomous-project-management.md",
       "title": "Autonomous Project Management with Subagents",
@@ -764,92 +850,6 @@
         "steps": [
           "打开上游链接，提取输入、输出和触发条件",
           "按分类 通用 搭建最小可运行版本",
-          "先打通单次执行，再补调度、通知或集成接口",
-          "将参数与密钥改为环境变量，并增加失败重试与错误日志"
-        ],
-        "verification": [
-          "至少跑通 1 次端到端流程并保存输出样例",
-          "验证异常路径：缺参数、超时、上游失败",
-          "确认输出与目标一致，并记录可复现命令"
-        ],
-        "rollback": [
-          "暂停该自动化任务的定时触发",
-          "停用临时密钥并清理缓存数据",
-          "回退到手工流程并保留排障日志"
-        ]
-      }
-    },
-    {
-      "rank": 19,
-      "source": "A",
-      "path": "usecases/content-factory.md",
-      "title": "Multi-Agent Content Factory",
-      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/content-factory.md",
-      "category": "内容增长",
-      "security_risk": "low",
-      "source_confidence": 82,
-      "reproducibility_score": 72,
-      "ranking_score": 77.5,
-      "quickstart": {
-        "difficulty": "medium",
-        "estimated_minutes": 40,
-        "recommended_stack": [
-          "LLM",
-          "内容模板",
-          "发布API",
-          "指标看板"
-        ],
-        "preflight": [
-          "阅读并确认上游用例范围与授权要求",
-          "在隔离目录创建实验分支或临时项目",
-          "记录目标产出与成功判定标准"
-        ],
-        "steps": [
-          "打开上游链接，提取输入、输出和触发条件",
-          "按分类 内容增长 搭建最小可运行版本",
-          "先打通单次执行，再补调度、通知或集成接口",
-          "将参数与密钥改为环境变量，并增加失败重试与错误日志"
-        ],
-        "verification": [
-          "至少跑通 1 次端到端流程并保存输出样例",
-          "验证异常路径：缺参数、超时、上游失败",
-          "确认输出与目标一致，并记录可复现命令"
-        ],
-        "rollback": [
-          "暂停该自动化任务的定时触发",
-          "停用临时密钥并清理缓存数据",
-          "回退到手工流程并保留排障日志"
-        ]
-      }
-    },
-    {
-      "rank": 20,
-      "source": "A",
-      "path": "usecases/daily-youtube-digest.md",
-      "title": "Daily YouTube Digest",
-      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-youtube-digest.md",
-      "category": "内容增长",
-      "security_risk": "low",
-      "source_confidence": 82,
-      "reproducibility_score": 72,
-      "ranking_score": 77.5,
-      "quickstart": {
-        "difficulty": "medium",
-        "estimated_minutes": 40,
-        "recommended_stack": [
-          "LLM",
-          "内容模板",
-          "发布API",
-          "指标看板"
-        ],
-        "preflight": [
-          "阅读并确认上游用例范围与授权要求",
-          "在隔离目录创建实验分支或临时项目",
-          "记录目标产出与成功判定标准"
-        ],
-        "steps": [
-          "打开上游链接，提取输入、输出和触发条件",
-          "按分类 内容增长 搭建最小可运行版本",
           "先打通单次执行，再补调度、通知或集成接口",
           "将参数与密钥改为环境变量，并增加失败重试与错误日志"
         ],
