@@ -13,9 +13,9 @@
 
 2. `EvoLinkAI/awesome-openclaw-usecases-moltbook`
    - URL: https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook
-   - Commit: `6d6db82`
-   - Commit Date: 2026-03-14 03:33:21 -0700
-   - Latest Message: chore: update evolink links to use referral source
+   - Commit: `c0838b5`
+   - Commit Date: 2026-03-16 00:45:37 -0700
+   - Latest Message: chore: update evolink links to UTM tracking format
    - License Files: 未发现显式许可证文件（以最新上游仓库为准）
 
 ## License Notes
@@ -26,4 +26,4 @@
 
 ## Sync Timestamp
 
-- Generated At: 2026-03-16 04:40:33 UTC
+- Generated At: 2026-03-17 04:20:16 UTC
