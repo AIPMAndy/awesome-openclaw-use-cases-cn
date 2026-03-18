@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17 04:20:15 UTC",
+  "generated_at": "2026-03-18 04:25:28 UTC",
   "scoring_model": {
     "license_status": "explicit_license | missing_explicit_license",
     "source_confidence": "0-100, based on source license presence + heading quality + risk penalty",
@@ -8,12 +8,12 @@
   },
   "totals": {
     "source_a": 40,
-    "source_b": 70,
-    "overall": 110
+    "source_b": 74,
+    "overall": 114
   },
   "sources": [
     {"id": "A", "repo": "hesamsheikh/awesome-openclaw-usecases", "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases", "count": 40, "license_status": "explicit_license"},
-    {"id": "B", "repo": "EvoLinkAI/awesome-openclaw-usecases-moltbook", "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook", "count": 70, "license_status": "missing_explicit_license"}
+    {"id": "B", "repo": "EvoLinkAI/awesome-openclaw-usecases-moltbook", "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook", "count": 74, "license_status": "missing_explicit_license"}
   ],
   "usecases": [
     {"source": "A", "index": 1, "title": "OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub", "path": "usecases/aionui-cowork-desktop.md", "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/aionui-cowork-desktop.md", "category": "通用", "license_status": "explicit_license", "source_confidence": 82, "security_risk": "low", "reproducibility_score": 72},
@@ -125,6 +125,10 @@
     {"source": "B", "index": 67, "title": "67. Price Comparison Shopping Assistant", "path": "usecases/67-price-comparison-shopper.md", "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/67-price-comparison-shopper.md", "category": "投资交易", "license_status": "missing_explicit_license", "source_confidence": 59, "security_risk": "medium", "reproducibility_score": 47},
     {"source": "B", "index": 68, "title": "68. Meeting Notes Auto-Generator", "path": "usecases/68-meeting-notes-generator.md", "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/68-meeting-notes-generator.md", "category": "通用", "license_status": "missing_explicit_license", "source_confidence": 65, "security_risk": "low", "reproducibility_score": 57},
     {"source": "B", "index": 69, "title": "69. Homework Tutor for Kids", "path": "usecases/69-homework-tutor.md", "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/69-homework-tutor.md", "category": "学习知识", "license_status": "missing_explicit_license", "source_confidence": 65, "security_risk": "low", "reproducibility_score": 63},
-    {"source": "B", "index": 70, "title": "70. Travel Itinerary Planner", "path": "usecases/70-travel-itinerary-planner.md", "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/70-travel-itinerary-planner.md", "category": "生活方式", "license_status": "missing_explicit_license", "source_confidence": 65, "security_risk": "low", "reproducibility_score": 57}
+    {"source": "B", "index": 70, "title": "70. Travel Itinerary Planner", "path": "usecases/70-travel-itinerary-planner.md", "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/70-travel-itinerary-planner.md", "category": "生活方式", "license_status": "missing_explicit_license", "source_confidence": 65, "security_risk": "low", "reproducibility_score": 57},
+    {"source": "B", "index": 71, "title": "71. AI Image Generation", "path": "usecases/71-ai-image-generation.md", "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/71-ai-image-generation.md", "category": "通用", "license_status": "missing_explicit_license", "source_confidence": 65, "security_risk": "low", "reproducibility_score": 57},
+    {"source": "B", "index": 72, "title": "72. AI Video Generation", "path": "usecases/72-ai-video-generation.md", "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/72-ai-video-generation.md", "category": "通用", "license_status": "missing_explicit_license", "source_confidence": 65, "security_risk": "low", "reproducibility_score": 57},
+    {"source": "B", "index": 73, "title": "73. AI Music Generation", "path": "usecases/73-ai-music-generation.md", "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/73-ai-music-generation.md", "category": "通用", "license_status": "missing_explicit_license", "source_confidence": 65, "security_risk": "low", "reproducibility_score": 57},
+    {"source": "B", "index": 74, "title": "74. Smart LLM Routing", "path": "usecases/74-smart-llm-routing.md", "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/74-smart-llm-routing.md", "category": "通用", "license_status": "missing_explicit_license", "source_confidence": 65, "security_risk": "low", "reproducibility_score": 57}
   ]
 }

@@ -2,10 +2,10 @@
 
 > 自动生成文件，请勿手工编辑。
 
-- 生成时间: 2026-03-17 04:20:15 UTC
+- 生成时间: 2026-03-18 04:25:28 UTC
 - 来源 A: `hesamsheikh/awesome-openclaw-usecases` (40)
-- 来源 B: `EvoLinkAI/awesome-openclaw-usecases-moltbook` (70)
-- 总计: 110
+- 来源 B: `EvoLinkAI/awesome-openclaw-usecases-moltbook` (74)
+- 总计: 114
 - 机器可读索引: `USECASES.json`
 
 ## 来源 A（社区合集）
@@ -127,3 +127,7 @@
 | 68 | 68. Meeting Notes Auto-Generator | [查看](https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/68-meeting-notes-generator.md) | `usecases/68-meeting-notes-generator.md` | `通用` | `low` | 65 | 57 |
 | 69 | 69. Homework Tutor for Kids | [查看](https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/69-homework-tutor.md) | `usecases/69-homework-tutor.md` | `学习知识` | `low` | 65 | 63 |
 | 70 | 70. Travel Itinerary Planner | [查看](https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/70-travel-itinerary-planner.md) | `usecases/70-travel-itinerary-planner.md` | `生活方式` | `low` | 65 | 57 |
+| 71 | 71. AI Image Generation | [查看](https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/71-ai-image-generation.md) | `usecases/71-ai-image-generation.md` | `通用` | `low` | 65 | 57 |
+| 72 | 72. AI Video Generation | [查看](https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/72-ai-video-generation.md) | `usecases/72-ai-video-generation.md` | `通用` | `low` | 65 | 57 |
+| 73 | 73. AI Music Generation | [查看](https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/73-ai-music-generation.md) | `usecases/73-ai-music-generation.md` | `通用` | `low` | 65 | 57 |
+| 74 | 74. Smart LLM Routing | [查看](https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/74-smart-llm-routing.md) | `usecases/74-smart-llm-routing.md` | `通用` | `low` | 65 | 57 |
