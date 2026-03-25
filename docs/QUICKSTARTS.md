@@ -2,8 +2,8 @@
 
 > 自动生成文件，请勿手工编辑。
 
-- 生成时间: 2026-03-24 04:20:47 UTC
-- 索引时间: 2026-03-24 04:20:46 UTC
+- 生成时间: 2026-03-25 04:22:13 UTC
+- 索引时间: 2026-03-25 04:22:12 UTC
 - TopN: 20
 - 实际输出: 20
 - 排序规则: score=0.55*source_confidence+0.45*reproducibility_score-risk_penalty(low=0,medium=8,high=16)
@@ -17,21 +17,21 @@
 | 3 | Dynamic Dashboard with Sub-agent Spawning | A | 开发运维 | low | 82 | 78 | 80.2 |
 | 4 | Family Calendar Aggregation & Household Assistant | A | 效率自动化 | low | 82 | 78 | 80.2 |
 | 5 | Health & Symptom Tracker | A | 开发运维 | low | 82 | 78 | 80.2 |
-| 6 | Personal Knowledge Base (RAG) | A | 学习知识 | low | 82 | 78 | 80.2 |
-| 7 | Local CRM Framework with DenchClaw | A | 效率自动化 | low | 82 | 78 | 80.2 |
-| 8 | Multi-Channel Personal Assistant | A | 效率自动化 | low | 82 | 78 | 80.2 |
-| 9 | Multi-Source Tech News Digest | A | 效率自动化 | low | 82 | 78 | 80.2 |
-| 10 | OpenClaw + n8n Workflow Orchestration | A | 开发运维 | low | 82 | 78 | 80.2 |
-| 11 | Goal-Driven Autonomous Tasks | A | 效率自动化 | low | 82 | 78 | 80.2 |
-| 12 | Personal CRM with Automatic Contact Discovery | A | 效率自动化 | low | 82 | 78 | 80.2 |
-| 13 | Phone-Based Personal Assistant | A | 效率自动化 | low | 82 | 78 | 80.2 |
-| 14 | Self-Healing Home Server & Infrastructure Management | A | 开发运维 | low | 82 | 78 | 80.2 |
-| 15 | Semantic Memory Search | A | 学习知识 | low | 82 | 78 | 80.2 |
-| 16 | Todoist Task Manager: Agent Task Visibility | A | 效率自动化 | low | 82 | 78 | 80.2 |
-| 17 | OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub | A | 通用 | low | 82 | 72 | 77.5 |
-| 18 | arXiv Paper Reader | A | 通用 | low | 82 | 72 | 77.5 |
-| 19 | Autonomous Educational Game Development Pipeline | A | 通用 | low | 82 | 72 | 77.5 |
-| 20 | Autonomous Project Management with Subagents | A | 通用 | low | 82 | 72 | 77.5 |
+| 6 | HF Papers Research Discovery | A | 学习知识 | low | 82 | 78 | 80.2 |
+| 7 | Personal Knowledge Base (RAG) | A | 学习知识 | low | 82 | 78 | 80.2 |
+| 8 | Local CRM Framework with DenchClaw | A | 效率自动化 | low | 82 | 78 | 80.2 |
+| 9 | Multi-Channel Personal Assistant | A | 效率自动化 | low | 82 | 78 | 80.2 |
+| 10 | Multi-Source Tech News Digest | A | 效率自动化 | low | 82 | 78 | 80.2 |
+| 11 | OpenClaw + n8n Workflow Orchestration | A | 开发运维 | low | 82 | 78 | 80.2 |
+| 12 | Goal-Driven Autonomous Tasks | A | 效率自动化 | low | 82 | 78 | 80.2 |
+| 13 | Personal CRM with Automatic Contact Discovery | A | 效率自动化 | low | 82 | 78 | 80.2 |
+| 14 | Phone-Based Personal Assistant | A | 效率自动化 | low | 82 | 78 | 80.2 |
+| 15 | Self-Healing Home Server & Infrastructure Management | A | 开发运维 | low | 82 | 78 | 80.2 |
+| 16 | Semantic Memory Search | A | 学习知识 | low | 82 | 78 | 80.2 |
+| 17 | Todoist Task Manager: Agent Task Visibility | A | 效率自动化 | low | 82 | 78 | 80.2 |
+| 18 | AI Video Editing via Chat | A | 通用 | low | 82 | 72 | 77.5 |
+| 19 | OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub | A | 通用 | low | 82 | 72 | 77.5 |
+| 20 | arXiv Paper Reader | A | 通用 | low | 82 | 72 | 77.5 |
 
 ## 1. Custom Morning Brief
 
@@ -258,7 +258,52 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 6. Personal Knowledge Base (RAG)
+## 6. HF Papers Research Discovery
+
+- Source: A
+- Path: `usecases/hf-papers-research-discovery.md`
+- Category: 学习知识
+- Risk: low
+- Confidence: 82
+- Reproducibility: 78
+- Score: 80.2
+- Difficulty: easy
+- Estimated: 25 min
+- URL: https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/hf-papers-research-discovery.md
+
+### Recommended Stack
+
+- Markdown
+- Embedding/RAG
+- 向量检索
+- 定时归档
+
+### Preflight
+
+1. 阅读并确认上游用例范围与授权要求
+2. 在隔离目录创建实验分支或临时项目
+3. 记录目标产出与成功判定标准
+
+### Steps
+
+1. 打开上游链接，提取输入、输出和触发条件
+2. 按分类 学习知识 搭建最小可运行版本
+3. 先打通单次执行，再补调度、通知或集成接口
+4. 将参数与密钥改为环境变量，并增加失败重试与错误日志
+
+### Verification
+
+- 至少跑通 1 次端到端流程并保存输出样例
+- 验证异常路径：缺参数、超时、上游失败
+- 确认输出与目标一致，并记录可复现命令
+
+### Rollback
+
+- 暂停该自动化任务的定时触发
+- 停用临时密钥并清理缓存数据
+- 回退到手工流程并保留排障日志
+
+## 7. Personal Knowledge Base (RAG)
 
 - Source: A
 - Path: `usecases/knowledge-base-rag.md`
@@ -303,7 +348,7 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 7. Local CRM Framework with DenchClaw
+## 8. Local CRM Framework with DenchClaw
 
 - Source: A
 - Path: `usecases/local-crm-framework.md`
@@ -348,7 +393,7 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 8. Multi-Channel Personal Assistant
+## 9. Multi-Channel Personal Assistant
 
 - Source: A
 - Path: `usecases/multi-channel-assistant.md`
@@ -393,7 +438,7 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 9. Multi-Source Tech News Digest
+## 10. Multi-Source Tech News Digest
 
 - Source: A
 - Path: `usecases/multi-source-tech-news-digest.md`
@@ -438,7 +483,7 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 10. OpenClaw + n8n Workflow Orchestration
+## 11. OpenClaw + n8n Workflow Orchestration
 
 - Source: A
 - Path: `usecases/n8n-workflow-orchestration.md`
@@ -483,7 +528,7 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 11. Goal-Driven Autonomous Tasks
+## 12. Goal-Driven Autonomous Tasks
 
 - Source: A
 - Path: `usecases/overnight-mini-app-builder.md`
@@ -528,7 +573,7 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 12. Personal CRM with Automatic Contact Discovery
+## 13. Personal CRM with Automatic Contact Discovery
 
 - Source: A
 - Path: `usecases/personal-crm.md`
@@ -573,7 +618,7 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 13. Phone-Based Personal Assistant
+## 14. Phone-Based Personal Assistant
 
 - Source: A
 - Path: `usecases/phone-based-personal-assistant.md`
@@ -618,7 +663,7 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 14. Self-Healing Home Server & Infrastructure Management
+## 15. Self-Healing Home Server & Infrastructure Management
 
 - Source: A
 - Path: `usecases/self-healing-home-server.md`
@@ -663,7 +708,7 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 15. Semantic Memory Search
+## 16. Semantic Memory Search
 
 - Source: A
 - Path: `usecases/semantic-memory-search.md`
@@ -708,7 +753,7 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 16. Todoist Task Manager: Agent Task Visibility
+## 17. Todoist Task Manager: Agent Task Visibility
 
 - Source: A
 - Path: `usecases/todoist-task-manager.md`
@@ -753,7 +798,52 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 17. OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub
+## 18. AI Video Editing via Chat
+
+- Source: A
+- Path: `usecases/ai-video-editing.md`
+- Category: 通用
+- Risk: low
+- Confidence: 82
+- Reproducibility: 72
+- Score: 77.5
+- Difficulty: medium
+- Estimated: 40 min
+- URL: https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/ai-video-editing.md
+
+### Recommended Stack
+
+- Python
+- Bash
+- Webhook
+- 日志
+
+### Preflight
+
+1. 阅读并确认上游用例范围与授权要求
+2. 在隔离目录创建实验分支或临时项目
+3. 记录目标产出与成功判定标准
+
+### Steps
+
+1. 打开上游链接，提取输入、输出和触发条件
+2. 按分类 通用 搭建最小可运行版本
+3. 先打通单次执行，再补调度、通知或集成接口
+4. 将参数与密钥改为环境变量，并增加失败重试与错误日志
+
+### Verification
+
+- 至少跑通 1 次端到端流程并保存输出样例
+- 验证异常路径：缺参数、超时、上游失败
+- 确认输出与目标一致，并记录可复现命令
+
+### Rollback
+
+- 暂停该自动化任务的定时触发
+- 停用临时密钥并清理缓存数据
+- 回退到手工流程并保留排障日志
+
+## 19. OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub
 
 - Source: A
 - Path: `usecases/aionui-cowork-desktop.md`
@@ -798,7 +888,7 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 18. arXiv Paper Reader
+## 20. arXiv Paper Reader
 
 - Source: A
 - Path: `usecases/arxiv-paper-reader.md`
@@ -810,96 +900,6 @@
 - Difficulty: medium
 - Estimated: 40 min
 - URL: https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/arxiv-paper-reader.md
-
-### Recommended Stack
-
-- Python
-- Bash
-- Webhook
-- 日志
-
-### Preflight
-
-1. 阅读并确认上游用例范围与授权要求
-2. 在隔离目录创建实验分支或临时项目
-3. 记录目标产出与成功判定标准
-
-### Steps
-
-1. 打开上游链接，提取输入、输出和触发条件
-2. 按分类 通用 搭建最小可运行版本
-3. 先打通单次执行，再补调度、通知或集成接口
-4. 将参数与密钥改为环境变量，并增加失败重试与错误日志
-
-### Verification
-
-- 至少跑通 1 次端到端流程并保存输出样例
-- 验证异常路径：缺参数、超时、上游失败
-- 确认输出与目标一致，并记录可复现命令
-
-### Rollback
-
-- 暂停该自动化任务的定时触发
-- 停用临时密钥并清理缓存数据
-- 回退到手工流程并保留排障日志
-
-## 19. Autonomous Educational Game Development Pipeline
-
-- Source: A
-- Path: `usecases/autonomous-game-dev-pipeline.md`
-- Category: 通用
-- Risk: low
-- Confidence: 82
-- Reproducibility: 72
-- Score: 77.5
-- Difficulty: medium
-- Estimated: 40 min
-- URL: https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/autonomous-game-dev-pipeline.md
-
-### Recommended Stack
-
-- Python
-- Bash
-- Webhook
-- 日志
-
-### Preflight
-
-1. 阅读并确认上游用例范围与授权要求
-2. 在隔离目录创建实验分支或临时项目
-3. 记录目标产出与成功判定标准
-
-### Steps
-
-1. 打开上游链接，提取输入、输出和触发条件
-2. 按分类 通用 搭建最小可运行版本
-3. 先打通单次执行，再补调度、通知或集成接口
-4. 将参数与密钥改为环境变量，并增加失败重试与错误日志
-
-### Verification
-
-- 至少跑通 1 次端到端流程并保存输出样例
-- 验证异常路径：缺参数、超时、上游失败
-- 确认输出与目标一致，并记录可复现命令
-
-### Rollback
-
-- 暂停该自动化任务的定时触发
-- 停用临时密钥并清理缓存数据
-- 回退到手工流程并保留排障日志
-
-## 20. Autonomous Project Management with Subagents
-
-- Source: A
-- Path: `usecases/autonomous-project-management.md`
-- Category: 通用
-- Risk: low
-- Confidence: 82
-- Reproducibility: 72
-- Score: 77.5
-- Difficulty: medium
-- Estimated: 40 min
-- URL: https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/autonomous-project-management.md
 
 ### Recommended Stack
 

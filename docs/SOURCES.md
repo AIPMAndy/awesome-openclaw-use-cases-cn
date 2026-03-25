@@ -6,16 +6,16 @@
 
 1. `hesamsheikh/awesome-openclaw-usecases`
    - URL: https://github.com/hesamsheikh/awesome-openclaw-usecases
-   - Commit: `4bb578e`
-   - Commit Date: 2026-03-14 12:08:52 +0000
-   - Latest Message: Update use case count badge to 40
+   - Commit: `659895e`
+   - Commit Date: 2026-03-24 14:54:50 +0000
+   - Latest Message: Update use case count badge to 42
    - License Files: LICENSE
 
 2. `EvoLinkAI/awesome-openclaw-usecases-moltbook`
    - URL: https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook
-   - Commit: `5f18f70`
-   - Commit Date: 2026-03-20 03:28:44 -0700
-   - Latest Message: Update signup links to point to /signup
+   - Commit: `aa4c2c8`
+   - Commit Date: 2026-03-24 05:28:35 -0700
+   - Latest Message: Fix duplicate UTM parameters in EvoLink links
    - License Files: 未发现显式许可证文件（以最新上游仓库为准）
 
 ## License Notes
@@ -26,4 +26,4 @@
 
 ## Sync Timestamp
 
-- Generated At: 2026-03-24 04:20:47 UTC
+- Generated At: 2026-03-25 04:22:13 UTC

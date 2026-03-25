@@ -1,15 +1,38 @@
 {
-  "generated_at": "2026-03-24 04:20:46 UTC",
-  "compared_at": "2026-03-24 04:20:47 UTC",
-  "previous_generated_at": "2026-03-23 04:29:33 UTC",
+  "generated_at": "2026-03-25 04:22:12 UTC",
+  "compared_at": "2026-03-25 04:22:13 UTC",
+  "previous_generated_at": "2026-03-24 04:20:46 UTC",
   "totals": {
     "previous_overall": 114,
-    "current_overall": 114,
-    "new_count": 0,
+    "current_overall": 116,
+    "new_count": 2,
     "updated_count": 0,
     "removed_count": 0
   },
-  "new": [],
+  "new": [
+    {
+      "source": "A",
+      "path": "usecases/ai-video-editing.md",
+      "title": "AI Video Editing via Chat",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/ai-video-editing.md",
+      "category": "通用",
+      "license_status": "explicit_license",
+      "source_confidence": 82,
+      "security_risk": "low",
+      "reproducibility_score": 72
+    },
+    {
+      "source": "A",
+      "path": "usecases/hf-papers-research-discovery.md",
+      "title": "HF Papers Research Discovery",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/hf-papers-research-discovery.md",
+      "category": "学习知识",
+      "license_status": "explicit_license",
+      "source_confidence": 82,
+      "security_risk": "low",
+      "reproducibility_score": 78
+    }
+  ],
   "updated": [],
   "removed": []
 }
