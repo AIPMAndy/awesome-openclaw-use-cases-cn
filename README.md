@@ -45,6 +45,8 @@
 
 ### ✍️ 内容创作 & 研究
 
+| [AI 自动剪辑 YouTube 视频](usecases/ai-youtube-video-editing.md) | 自动删停顿和口头禅，40% 缩短时长，无需手动剪辑 | Tubeify API |
+
 | 案例 | 一句话说明 | 渠道 |
 |------|-----------|------|
 | [自主运营网站 Agent](usecases/ai-website-operator.md) | OpenClaw Agent 独立运营网站 32 天，日记/SEO/外链全自动，日 UV 5000+ | 全平台 |
@@ -60,6 +62,8 @@
 | [知识库问答助手](usecases/knowledge-base-qa.md) | 散落信息变成可问可答的知识库 | 全平台 |
 
 ### 🛠 开发者 & 高级玩法
+
+| [加密货币全自主注册域名](usecases/autonomous-domain-registration.md) | AI 自主查询、付款、注册域名，无需浏览器和验证码 | LobsterDomains API |
 
 | 案例 | 一句话说明 | 渠道 |
 |------|-----------|------|
