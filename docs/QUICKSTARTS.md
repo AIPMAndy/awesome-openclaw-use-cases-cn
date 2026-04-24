@@ -2,8 +2,8 @@
 
 > 自动生成文件，请勿手工编辑。
 
-- 生成时间: 2026-04-23 04:50:58 UTC
-- 索引时间: 2026-04-23 04:50:57 UTC
+- 生成时间: 2026-04-24 04:54:56 UTC
+- 索引时间: 2026-04-24 04:54:55 UTC
 - TopN: 20
 - 实际输出: 20
 - 排序规则: score=0.55*source_confidence+0.45*reproducibility_score-risk_penalty(low=0,medium=8,high=16)
@@ -29,9 +29,9 @@
 | 15 | Self-Healing Home Server & Infrastructure Management | A | 开发运维 | low | 82 | 78 | 80.2 |
 | 16 | Semantic Memory Search | A | 学习知识 | low | 82 | 78 | 80.2 |
 | 17 | Todoist Task Manager: Agent Task Visibility | A | 效率自动化 | low | 82 | 78 | 80.2 |
-| 18 | AI Video Editing via Chat | A | 通用 | low | 82 | 72 | 77.5 |
-| 19 | OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub | A | 通用 | low | 82 | 72 | 77.5 |
-| 20 | arXiv Paper Reader | A | 通用 | low | 82 | 72 | 77.5 |
+| 18 | Olympics Daily Briefing | B | 效率自动化 | low | 82 | 78 | 80.2 |
+| 19 | Three-Tier Memory System | B | 学习知识 | low | 82 | 78 | 80.2 |
+| 20 | Trading Bot Monitor | B | 开发运维 | low | 82 | 78 | 80.2 |
 
 ## 1. Custom Morning Brief
 
@@ -798,25 +798,25 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 18. AI Video Editing via Chat
+## 18. Olympics Daily Briefing
 
-- Source: A
-- Path: `usecases/ai-video-editing.md`
-- Category: 通用
+- Source: B
+- Path: `usecases/02-olympics-daily-briefing.md`
+- Category: 效率自动化
 - Risk: low
 - Confidence: 82
-- Reproducibility: 72
-- Score: 77.5
-- Difficulty: medium
-- Estimated: 40 min
-- URL: https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/ai-video-editing.md
+- Reproducibility: 78
+- Score: 80.2
+- Difficulty: easy
+- Estimated: 25 min
+- URL: https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/02-olympics-daily-briefing.md
 
 ### Recommended Stack
 
 - Python
-- Bash
 - Webhook
-- 日志
+- 任务调度
+- 通知渠道
 
 ### Preflight
 
@@ -827,7 +827,7 @@
 ### Steps
 
 1. 打开上游链接，提取输入、输出和触发条件
-2. 按分类 通用 搭建最小可运行版本
+2. 按分类 效率自动化 搭建最小可运行版本
 3. 先打通单次执行，再补调度、通知或集成接口
 4. 将参数与密钥改为环境变量，并增加失败重试与错误日志
 
@@ -843,25 +843,25 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 19. OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub
+## 19. Three-Tier Memory System
 
-- Source: A
-- Path: `usecases/aionui-cowork-desktop.md`
-- Category: 通用
+- Source: B
+- Path: `usecases/04-three-tier-memory-system.md`
+- Category: 学习知识
 - Risk: low
 - Confidence: 82
-- Reproducibility: 72
-- Score: 77.5
-- Difficulty: medium
-- Estimated: 40 min
-- URL: https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/aionui-cowork-desktop.md
+- Reproducibility: 78
+- Score: 80.2
+- Difficulty: easy
+- Estimated: 25 min
+- URL: https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/04-three-tier-memory-system.md
 
 ### Recommended Stack
 
-- Python
-- Bash
-- Webhook
-- 日志
+- Markdown
+- Embedding/RAG
+- 向量检索
+- 定时归档
 
 ### Preflight
 
@@ -872,7 +872,7 @@
 ### Steps
 
 1. 打开上游链接，提取输入、输出和触发条件
-2. 按分类 通用 搭建最小可运行版本
+2. 按分类 学习知识 搭建最小可运行版本
 3. 先打通单次执行，再补调度、通知或集成接口
 4. 将参数与密钥改为环境变量，并增加失败重试与错误日志
 
@@ -888,25 +888,25 @@
 - 停用临时密钥并清理缓存数据
 - 回退到手工流程并保留排障日志
 
-## 20. arXiv Paper Reader
+## 20. Trading Bot Monitor
 
-- Source: A
-- Path: `usecases/arxiv-paper-reader.md`
-- Category: 通用
+- Source: B
+- Path: `usecases/06-trading-bot-monitor.md`
+- Category: 开发运维
 - Risk: low
 - Confidence: 82
-- Reproducibility: 72
-- Score: 77.5
-- Difficulty: medium
-- Estimated: 40 min
-- URL: https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/arxiv-paper-reader.md
+- Reproducibility: 78
+- Score: 80.2
+- Difficulty: easy
+- Estimated: 25 min
+- URL: https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/06-trading-bot-monitor.md
 
 ### Recommended Stack
 
-- Python
 - Bash
-- Webhook
-- 日志
+- Python
+- Cron
+- 日志监控
 
 ### Preflight
 
@@ -917,7 +917,7 @@
 ### Steps
 
 1. 打开上游链接，提取输入、输出和触发条件
-2. 按分类 通用 搭建最小可运行版本
+2. 按分类 开发运维 搭建最小可运行版本
 3. 先打通单次执行，再补调度、通知或集成接口
 4. 将参数与密钥改为环境变量，并增加失败重试与错误日志
 

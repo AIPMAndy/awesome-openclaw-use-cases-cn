@@ -13,10 +13,10 @@
 
 2. `EvoLinkAI/awesome-openclaw-usecases-moltbook`
    - URL: https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook
-   - Commit: `aa4c2c8`
-   - Commit Date: 2026-03-24 05:28:35 -0700
-   - Latest Message: Fix duplicate UTM parameters in EvoLink links
-   - License Files: 未发现显式许可证文件（以最新上游仓库为准）
+   - Commit: `e289ac4`
+   - Commit Date: 2026-04-24 00:56:24 +0800
+   - Latest Message: chore: add Apache License 2.0
+   - License Files: LICENSE
 
 ## License Notes
 
@@ -26,4 +26,4 @@
 
 ## Sync Timestamp
 
-- Generated At: 2026-04-23 04:50:58 UTC
+- Generated At: 2026-04-24 04:54:56 UTC
