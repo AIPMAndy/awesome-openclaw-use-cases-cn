@@ -13,9 +13,9 @@
 
 2. `EvoLinkAI/awesome-openclaw-usecases-moltbook`
    - URL: https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook
-   - Commit: `e289ac4`
-   - Commit Date: 2026-04-24 00:56:24 +0800
-   - Latest Message: chore: add Apache License 2.0
+   - Commit: `f0bafae`
+   - Commit Date: 2026-06-15 22:42:52 +0800
+   - Latest Message: Polish EvoLink quick links
    - License Files: LICENSE
 
 ## License Notes
@@ -26,4 +26,4 @@
 
 ## Sync Timestamp
 
-- Generated At: 2026-06-15 07:21:13 UTC
+- Generated At: 2026-06-16 07:27:20 UTC
