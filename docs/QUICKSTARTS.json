@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-18 06:52:43 UTC",
-  "source_generated_at": "2026-06-18 06:52:42 UTC",
+  "generated_at": "2026-06-19 07:06:39 UTC",
+  "source_generated_at": "2026-06-19 07:06:39 UTC",
   "top_n": 20,
   "selected_count": 20,
   "ranking_formula": "score=0.55*source_confidence+0.45*reproducibility_score-risk_penalty(low=0,medium=8,high=16)",
