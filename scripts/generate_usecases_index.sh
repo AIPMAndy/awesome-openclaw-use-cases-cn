@@ -108,21 +108,26 @@ if [[ -z "$OUT_STATS" ]]; then
   OUT_STATS="$(dirname "$OUT_MD")/STATS.md"
 fi
 
-if [[ -z "$SRC_A" || -z "$SRC_B" ]]; then
+if [[ -z "$SRC_A" ]]; then
+  echo "Error: source A is required" >&2
   usage
   exit 1
 fi
 
 A_DIR="${SRC_A}/usecases"
-B_DIR="${SRC_B}/usecases"
+B_DIR=""
 
 if [[ ! -d "$A_DIR" ]]; then
   echo "Error: missing directory: ${A_DIR}" >&2
   exit 1
 fi
-if [[ ! -d "$B_DIR" ]]; then
-  echo "Error: missing directory: ${B_DIR}" >&2
-  exit 1
+
+if [[ -n "$SRC_B" ]]; then
+  B_DIR="${SRC_B}/usecases"
+  if [[ ! -d "$B_DIR" ]]; then
+    echo "Warning: source B directory not found: ${B_DIR}, proceeding with source A only" >&2
+    B_DIR=""
+  fi
 fi
 
 escape_pipe() {
@@ -346,27 +351,29 @@ while IFS= read -r file; do
 done < <(find "$A_DIR" -maxdepth 1 -type f -name '*.md' | LC_ALL=C sort)
 
 idx=1
-while IFS= read -r file; do
-  [[ -n "$file" ]] || continue
+if [[ -n "$B_DIR" ]]; then
+  while IFS= read -r file; do
+    [[ -n "$file" ]] || continue
 
-  base="$(basename "$file")"
-  rel="usecases/${base}"
+    base="$(basename "$file")"
+    rel="usecases/${base}"
 
-  IFS=$'\t' read -r title has_heading < <(extract_title_with_flag "$file")
-  category="$(classify_usecase "$title" "$base")"
-  risk="$(assess_security_risk "$category" "$title" "$base")"
-  license_status="$(source_license_status "B")"
-  confidence="$(calculate_source_confidence "$license_status" "$has_heading" "$risk")"
-  reproducibility="$(calculate_reproducibility_score "$license_status" "$has_heading" "$risk" "$category")"
-  url="${B_URL}/${base}"
+    IFS=$'\t' read -r title has_heading < <(extract_title_with_flag "$file")
+    category="$(classify_usecase "$title" "$base")"
+    risk="$(assess_security_risk "$category" "$title" "$base")"
+    license_status="$(source_license_status "B")"
+    confidence="$(calculate_source_confidence "$license_status" "$has_heading" "$risk")"
+    reproducibility="$(calculate_reproducibility_score "$license_status" "$has_heading" "$risk" "$category")"
+    url="${B_URL}/${base}"
 
-  printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' \
-    "B" "$idx" "$title" "$base" "$rel" "$url" "$category" "$license_status" "$confidence" "$risk" "$reproducibility" >> "$B_TSV"
-  printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' \
-    "B" "$idx" "$title" "$base" "$rel" "$url" "$category" "$license_status" "$confidence" "$risk" "$reproducibility" >> "$ALL_TSV"
+    printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' \
+      "B" "$idx" "$title" "$base" "$rel" "$url" "$category" "$license_status" "$confidence" "$risk" "$reproducibility" >> "$B_TSV"
+    printf '%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' \
+      "B" "$idx" "$title" "$base" "$rel" "$url" "$category" "$license_status" "$confidence" "$risk" "$reproducibility" >> "$ALL_TSV"
 
-  idx=$((idx + 1))
-done < <(find "$B_DIR" -maxdepth 1 -type f -name '*.md' ! -name 'TEMPLATE.md' | LC_ALL=C sort)
+    idx=$((idx + 1))
+  done < <(find "$B_DIR" -maxdepth 1 -type f -name '*.md' ! -name 'TEMPLATE.md' | LC_ALL=C sort)
+fi
 
 A_COUNT="$(wc -l < "$A_TSV" | tr -d ' ')"
 B_COUNT="$(wc -l < "$B_TSV" | tr -d ' ')"

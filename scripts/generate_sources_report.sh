@@ -82,7 +82,8 @@ if [[ ${#positionals[@]} -ge 3 ]]; then
   OUT_MD="${positionals[2]}"
 fi
 
-if [[ -z "$SRC_A" || -z "$SRC_B" ]]; then
+if [[ -z "$SRC_A" ]]; then
+  echo "Error: source A is required" >&2
   usage
   exit 1
 fi
@@ -91,9 +92,13 @@ if [[ ! -d "$SRC_A/.git" ]]; then
   echo "Error: source A is not a git repository: ${SRC_A}" >&2
   exit 1
 fi
-if [[ ! -d "$SRC_B/.git" ]]; then
-  echo "Error: source B is not a git repository: ${SRC_B}" >&2
-  exit 1
+
+HAS_SRC_B=1
+if [[ -z "$SRC_B" ]]; then
+  HAS_SRC_B=0
+elif [[ ! -d "$SRC_B/.git" ]]; then
+  echo "Warning: source B is not a git repository: ${SRC_B}, proceeding with source A only" >&2
+  HAS_SRC_B=0
 fi
 
 latest_commit_short() {
@@ -127,13 +132,16 @@ detect_license_files() {
 
 GENERATED_AT="${OPENCLAW_GENERATED_AT:-$(date '+%Y-%m-%d %H:%M:%S %Z')}"
 A_COMMIT="$(latest_commit_short "$SRC_A")"
-B_COMMIT="$(latest_commit_short "$SRC_B")"
 A_DATE="$(latest_commit_date "$SRC_A")"
-B_DATE="$(latest_commit_date "$SRC_B")"
 A_SUBJECT="$(latest_commit_subject "$SRC_A")"
-B_SUBJECT="$(latest_commit_subject "$SRC_B")"
 A_LICENSE="$(detect_license_files "$SRC_A")"
-B_LICENSE="$(detect_license_files "$SRC_B")"
+
+if [[ $HAS_SRC_B -eq 1 ]]; then
+  B_COMMIT="$(latest_commit_short "$SRC_B")"
+  B_DATE="$(latest_commit_date "$SRC_B")"
+  B_SUBJECT="$(latest_commit_subject "$SRC_B")"
+  B_LICENSE="$(detect_license_files "$SRC_B")"
+fi
 
 mkdir -p "$(dirname "$OUT_MD")"
 
@@ -151,13 +159,22 @@ mkdir -p "$(dirname "$OUT_MD")"
   echo "   - Latest Message: ${A_SUBJECT}"
   echo "   - License Files: ${A_LICENSE}"
   echo
-  echo "2. \`${B_REPO}\`"
-  echo "   - URL: ${B_REPO_URL}"
-  echo "   - Commit: \`${B_COMMIT}\`"
-  echo "   - Commit Date: ${B_DATE}"
-  echo "   - Latest Message: ${B_SUBJECT}"
-  echo "   - License Files: ${B_LICENSE}"
-  echo
+  
+  if [[ $HAS_SRC_B -eq 1 ]]; then
+    echo "2. \`${B_REPO}\`"
+    echo "   - URL: ${B_REPO_URL}"
+    echo "   - Commit: \`${B_COMMIT}\`"
+    echo "   - Commit Date: ${B_DATE}"
+    echo "   - Latest Message: ${B_SUBJECT}"
+    echo "   - License Files: ${B_LICENSE}"
+    echo
+  else
+    echo "2. \`${B_REPO}\` (unavailable)"
+    echo "   - URL: ${B_REPO_URL}"
+    echo "   - Status: Repository not accessible"
+    echo
+  fi
+  
   echo "## License Notes"
   echo
   echo "- 本仓库默认只提供索引与回链，不镜像上游全文。"

@@ -204,34 +204,41 @@ sync_repo() {
   if [[ -d "${repo_dir}/.git" ]]; then
     if [[ "$REFRESH_EXISTING" -eq 0 ]]; then
       echo "Using existing repository without refresh: ${repo_dir}"
-      return
+      return 0
     fi
 
     echo "Refreshing existing repository: ${repo_dir}"
-    git -C "$repo_dir" fetch --depth 1 origin
+    if ! git -C "$repo_dir" fetch --depth 1 origin 2>/dev/null; then
+      echo "Warning: failed to refresh ${repo_dir}, skipping" >&2
+      return 1
+    fi
 
     default_ref="$(resolve_default_remote_ref "$repo_dir")"
     if [[ -z "$default_ref" ]]; then
-      echo "Error: unable to resolve origin default branch for ${repo_dir}" >&2
-      exit 1
+      echo "Warning: unable to resolve origin default branch for ${repo_dir}, skipping" >&2
+      return 1
     fi
 
     git -C "$repo_dir" reset --hard "$default_ref"
     git -C "$repo_dir" clean -fd
-    return
+    return 0
   fi
 
   if [[ -e "$repo_dir" ]]; then
     echo "Error: target exists but is not a git repository: ${repo_dir}" >&2
-    exit 1
+    return 1
   fi
 
   echo "Cloning repository: ${repo_url}"
-  git clone --depth 1 "$repo_url" "$repo_dir"
+  if ! git clone --depth 1 "$repo_url" "$repo_dir" 2>/dev/null; then
+    echo "Warning: failed to clone ${repo_url}, skipping" >&2
+    return 1
+  fi
+  return 0
 }
 
-sync_repo "$REPO_A_URL" "$SRC_A"
-sync_repo "$REPO_B_URL" "$SRC_B"
+sync_repo "$REPO_A_URL" "$SRC_A" || { echo "Fatal: failed to sync source A" >&2; exit 1; }
+sync_repo "$REPO_B_URL" "$SRC_B" || echo "Source B unavailable, proceeding with source A only"
 
 "${ROOT_DIR}/scripts/generate_usecases_index.sh" \
   --src-a "$SRC_A" \
