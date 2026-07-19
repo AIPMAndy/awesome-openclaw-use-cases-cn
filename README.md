@@ -6,7 +6,7 @@
 
 **别问 OpenClaw 能干嘛。看别人已经干成了什么。**
 
-> 13 个真实落地案例 · 可复制的 Prompt & 配置 · Markdown + JSON 双格式
+> 17 个真实落地案例 · 可复制的 Prompt & 配置 · Markdown + JSON 双格式
 >
 > 中文世界最值得收藏的 OpenClaw 实战案例库
 
@@ -31,7 +31,7 @@
 
 ---
 
-## ⭐ 精选案例（13 个真实场景）
+## ⭐ 精选案例（17 个真实场景）
 
 ### 🤖 私人助理 / Life OS
 
@@ -45,12 +45,12 @@
 
 ### ✍️ 内容创作 & 研究
 
-| [AI 自动剪辑 YouTube 视频](usecases/ai-youtube-video-editing.md) | 自动删停顿和口头禅，40% 缩短时长，无需手动剪辑 | Tubeify API |
-
 | 案例 | 一句话说明 | 渠道 |
 |------|-----------|------|
+| [AI 自动剪辑 YouTube 视频](usecases/ai-youtube-video-editing.md) | 自动删停顿和口头禅，40% 缩短时长，无需手动剪辑 | Tubeify API |
 | [自主运营网站 Agent](usecases/ai-website-operator.md) | OpenClaw Agent 独立运营网站 32 天，日记/SEO/外链全自动，日 UV 5000+ | 全平台 |
 | [内容改写工作流](usecases/content-repurpose.md) | 一篇长文 → 多平台内容（小红书/Twitter/公众号） | CLI / Chat |
+| [X/Twitter 自动化 Agent](usecases/x-twitter-automation-tweetclaw.md) | 搜索推文/回复、导出粉丝、生成待确认的发帖和回复、监控品牌信号 | OpenClaw / TweetClaw |
 | [AI 研究日报](usecases/ai-research-digest.md) | 自动抓取 + 摘要 + 推送，每天 5 分钟看完行业动态 | 多渠道 |
 
 ### 📊 办公提效
@@ -63,10 +63,9 @@
 
 ### 🛠 开发者 & 高级玩法
 
-| [加密货币全自主注册域名](usecases/autonomous-domain-registration.md) | AI 自主查询、付款、注册域名，无需浏览器和验证码 | LobsterDomains API |
-
 | 案例 | 一句话说明 | 渠道 |
 |------|-----------|------|
+| [加密货币全自主注册域名](usecases/autonomous-domain-registration.md) | AI 自主查询、付款、注册域名，无需浏览器和验证码 | LobsterDomains API |
 | [GitHub PR Review Agent](usecases/github-pr-review-agent.md) | 在聊天里发起代码 Review，不用切到浏览器 | Discord / Chat |
 | [Browser 自动化](usecases/browser-automation-demo.md) | Agent 不只会说，还会点——网页操作自动化 | Web |
 | [多 Agent 协作](usecases/multi-agent-orchestration.md) | 让多个 Agent 分工协作，复杂任务拆解执行 | CLI / Chat |
