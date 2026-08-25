@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-24 03:02:37 UTC",
-  "source_generated_at": "2026-08-24 03:02:37 UTC",
+  "generated_at": "2026-08-25 02:57:45 UTC",
+  "source_generated_at": "2026-08-25 02:57:44 UTC",
   "top_n": 20,
   "selected_count": 20,
   "ranking_formula": "score=0.55*source_confidence+0.45*reproducibility_score-risk_penalty(low=0,medium=8,high=16)",
@@ -738,23 +738,23 @@
     },
     {
       "rank": 18,
-      "source": "A",
-      "path": "usecases/ai-video-editing.md",
-      "title": "AI Video Editing via Chat",
-      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/ai-video-editing.md",
-      "category": "通用",
+      "source": "B",
+      "path": "usecases/02-olympics-daily-briefing.md",
+      "title": "Olympics Daily Briefing",
+      "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/02-olympics-daily-briefing.md",
+      "category": "效率自动化",
       "security_risk": "low",
       "source_confidence": 82,
-      "reproducibility_score": 72,
-      "ranking_score": 77.5,
+      "reproducibility_score": 78,
+      "ranking_score": 80.2,
       "quickstart": {
-        "difficulty": "medium",
-        "estimated_minutes": 40,
+        "difficulty": "easy",
+        "estimated_minutes": 25,
         "recommended_stack": [
           "Python",
-          "Bash",
           "Webhook",
-          "日志"
+          "任务调度",
+          "通知渠道"
         ],
         "preflight": [
           "阅读并确认上游用例范围与授权要求",
@@ -763,7 +763,7 @@
         ],
         "steps": [
           "打开上游链接，提取输入、输出和触发条件",
-          "按分类 通用 搭建最小可运行版本",
+          "按分类 效率自动化 搭建最小可运行版本",
           "先打通单次执行，再补调度、通知或集成接口",
           "将参数与密钥改为环境变量，并增加失败重试与错误日志"
         ],
@@ -781,23 +781,23 @@
     },
     {
       "rank": 19,
-      "source": "A",
-      "path": "usecases/aionui-cowork-desktop.md",
-      "title": "OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub",
-      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/aionui-cowork-desktop.md",
-      "category": "通用",
+      "source": "B",
+      "path": "usecases/04-three-tier-memory-system.md",
+      "title": "Three-Tier Memory System",
+      "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/04-three-tier-memory-system.md",
+      "category": "学习知识",
       "security_risk": "low",
       "source_confidence": 82,
-      "reproducibility_score": 72,
-      "ranking_score": 77.5,
+      "reproducibility_score": 78,
+      "ranking_score": 80.2,
       "quickstart": {
-        "difficulty": "medium",
-        "estimated_minutes": 40,
+        "difficulty": "easy",
+        "estimated_minutes": 25,
         "recommended_stack": [
-          "Python",
-          "Bash",
-          "Webhook",
-          "日志"
+          "Markdown",
+          "Embedding/RAG",
+          "向量检索",
+          "定时归档"
         ],
         "preflight": [
           "阅读并确认上游用例范围与授权要求",
@@ -806,7 +806,7 @@
         ],
         "steps": [
           "打开上游链接，提取输入、输出和触发条件",
-          "按分类 通用 搭建最小可运行版本",
+          "按分类 学习知识 搭建最小可运行版本",
           "先打通单次执行，再补调度、通知或集成接口",
           "将参数与密钥改为环境变量，并增加失败重试与错误日志"
         ],
@@ -824,23 +824,23 @@
     },
     {
       "rank": 20,
-      "source": "A",
-      "path": "usecases/arxiv-paper-reader.md",
-      "title": "arXiv Paper Reader",
-      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/arxiv-paper-reader.md",
-      "category": "通用",
+      "source": "B",
+      "path": "usecases/06-trading-bot-monitor.md",
+      "title": "Trading Bot Monitor",
+      "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook/blob/main/usecases/06-trading-bot-monitor.md",
+      "category": "开发运维",
       "security_risk": "low",
       "source_confidence": 82,
-      "reproducibility_score": 72,
-      "ranking_score": 77.5,
+      "reproducibility_score": 78,
+      "ranking_score": 80.2,
       "quickstart": {
-        "difficulty": "medium",
-        "estimated_minutes": 40,
+        "difficulty": "easy",
+        "estimated_minutes": 25,
         "recommended_stack": [
-          "Python",
           "Bash",
-          "Webhook",
-          "日志"
+          "Python",
+          "Cron",
+          "日志监控"
         ],
         "preflight": [
           "阅读并确认上游用例范围与授权要求",
@@ -849,7 +849,7 @@
         ],
         "steps": [
           "打开上游链接，提取输入、输出和触发条件",
-          "按分类 通用 搭建最小可运行版本",
+          "按分类 开发运维 搭建最小可运行版本",
           "先打通单次执行，再补调度、通知或集成接口",
           "将参数与密钥改为环境变量，并增加失败重试与错误日志"
         ],
