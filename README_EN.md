@@ -6,7 +6,7 @@
 
 **Don't ask what OpenClaw can do. See what people have already built.**
 
-> 13 real-world cases · Copy-paste Prompts & Configs · Markdown + JSON dual format
+> 17 real-world cases · Copy-paste Prompts & Configs · Markdown + JSON dual format
 >
 > The most comprehensive Chinese OpenClaw use case library
 
@@ -29,7 +29,7 @@ Most people don't struggle with "Is OpenClaw powerful?" — they struggle with:
 
 ---
 
-## ⭐ Featured Cases (13 Real Scenarios)
+## ⭐ Featured Cases (17 Real Scenarios)
 
 ### 🤖 Personal Assistant / Life OS
 
@@ -45,7 +45,10 @@ Most people don't struggle with "Is OpenClaw powerful?" — they struggle with:
 
 | Case | What It Does | Channel |
 |------|-------------|---------|
+| [AI YouTube Video Editing](usecases/ai-youtube-video-editing.md) | Remove pauses and filler words automatically, reducing video length by 40% | Tubeify API |
+| [Autonomous Website Operator](usecases/ai-website-operator.md) | Run a website independently with automated journals, SEO, and outreach | All |
 | [Content Repurpose](usecases/content-repurpose.md) | One long article → multi-platform content (Twitter, blog, etc.) | CLI / Chat |
+| [X/Twitter Automation Agent](usecases/x-twitter-automation-tweetclaw.md) | Search tweets/replies, export followers, draft approved posts/replies, monitor signals | OpenClaw / TweetClaw |
 | [AI Research Digest](usecases/ai-research-digest.md) | Auto-fetch + summarize + push daily industry updates | Multi |
 
 ### 📊 Productivity
@@ -60,6 +63,7 @@ Most people don't struggle with "Is OpenClaw powerful?" — they struggle with:
 
 | Case | What It Does | Channel |
 |------|-------------|---------|
+| [Autonomous Domain Registration](usecases/autonomous-domain-registration.md) | Check, pay for, and register domains without browser interaction | LobsterDomains API |
 | [GitHub PR Review Agent](usecases/github-pr-review-agent.md) | Code review from your chat — no browser switching | Discord / Chat |
 | [Browser Automation](usecases/browser-automation-demo.md) | Agent that clicks, not just talks — web automation | Web |
 | [Multi-Agent Orchestration](usecases/multi-agent-orchestration.md) | Multiple agents collaborating on complex tasks | CLI / Chat |
