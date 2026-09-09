@@ -2,8 +2,8 @@
 
 > 自动生成文件，请勿手工编辑。
 
-- 生成时间: 2026-09-08 06:57:41 UTC
-- 索引时间: 2026-09-08 06:57:40 UTC
+- 生成时间: 2026-09-09 07:06:48 UTC
+- 索引时间: 2026-09-09 07:06:47 UTC
 - TopN: 20
 - 实际输出: 20
 - 排序规则: score=0.55*source_confidence+0.45*reproducibility_score-risk_penalty(low=0,medium=8,high=16)
