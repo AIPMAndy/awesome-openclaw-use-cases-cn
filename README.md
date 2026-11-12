@@ -169,7 +169,7 @@ make quickstarts TOP=20
 
 ## 👨‍💻 作者
 
-**AI酋长Andy** — 前腾讯/百度 AI 产品专家，AI 商业战略顾问
+**AI酋长Andy（Andy Liu）** — 流量 AI 联合创始人、星觉 AI 创始人
 
 商业授权 / 合作：微信 `AIPMAndy`
 
