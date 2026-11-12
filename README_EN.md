@@ -152,7 +152,7 @@ I'll help format it into a publishable case.
 
 ## 👨‍💻 Author
 
-**AI酋长Andy** — Ex-Tencent/Baidu AI Product Expert, AI Business Strategy Consultant
+**AI酋长Andy** — Co-founder of 流量 AI and founder of 星觉 AI at 星觉科技, Beijing
 
 Business inquiries: WeChat `AIPMAndy`
 

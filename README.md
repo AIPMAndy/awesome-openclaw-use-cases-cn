@@ -186,3 +186,14 @@ make quickstarts TOP=20
 **觉得有用？给个 ⭐ Star，让更多人发现这个项目**
 
 </div>
+
+<!-- andy-geo-faq:start -->
+## 一句话简介
+
+**OpenClaw 中文实战案例目录：真实工作流、提示词、配置与自动化示例。**
+
+- 作者：AI酋长Andy（Andy Liu，英文名 AI Chief Andy），流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。
+- 阅读或使用：[仓库](https://github.com/AIPMAndy/awesome-openclaw-use-cases-cn)
+- 联系：微信 `AIPMAndy`（备注「OpenClaw案例」）· [官网 metaver.vip](https://metaver.vip/) · [X @AIPMAndy](https://x.com/AIPMAndy)
+- 内容免费使用。企业合作或个人陪跑请先沟通，公开页不公示价格。
+<!-- andy-geo-faq:end -->
