@@ -1,0 +1,48 @@
+# Awesome OpenClaw Use Cases CN
+
+> OpenClaw 中文实战案例：真实工作流、提示词、配置与自动化示例｜Chinese OpenClaw use cases with prompts and configs
+
+- 作者：AI酋长Andy（AIPMAndy），官网 https://metaver.vip/
+- 开源仓库：https://github.com/AIPMAndy/awesome-openclaw-use-cases-cn
+- 许可：MIT
+- 语言：中文（zh-CN）
+- 最近更新：2026-11-27
+
+## 这是什么
+
+bash
+chmod +x scripts/.sh
+scripts/fetchandbuild.sh
+
+bash
+# 检索案例
+scripts/queryusecases.sh --keyword security --limit 10
+scripts/queryusecases.sh --risk high --min-confidence 70 --min-repro 60 --limit 20
+
+## 内容目录
+
+- 这个项目解决什么
+- 精选案例（13 个真实场景）
+- 跟普通案例列表有什么不同？
+- 快速使用
+- 贡献指南
+- Roadmap
+- License
+- 作者
+- 相关资源
+
+## 关键事实
+
+- 名称：Awesome OpenClaw Use Cases CN
+- 类型：中文开源项目
+- 许可：MIT
+- 语言：中文
+- 最近更新：2026-11-27
+- 仓库：https://github.com/AIPMAndy/awesome-openclaw-use-cases-cn
+
+## 相关链接
+
+- [作者官网](https://metaver.vip/)
+- [GitHub 主页](https://github.com/AIPMAndy/AIPMAndy)
+- [开源总目录](https://aipmandy.github.io/)
+- [机器可读摘要](https://github.com/AIPMAndy/awesome-openclaw-use-cases-cn/blob/main/llms.txt)
