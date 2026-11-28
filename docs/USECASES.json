@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27 10:34:24 UTC",
+  "generated_at": "2026-11-28 09:51:11 UTC",
   "scoring_model": {
     "license_status": "explicit_license | missing_explicit_license",
     "source_confidence": "0-100, based on source license presence + heading quality + risk penalty",
